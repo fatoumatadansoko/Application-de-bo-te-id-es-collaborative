@@ -8,22 +8,21 @@
 </head>
 <body>
 
-<div class="header">
-    <img src="" alt=""> 
 
 </div>
     <p>
-         <h1>Bienvenue!</h1>
+         <h2>Bienvenue!</h2>
          <h2>Inscrivez_vous d'abord</h2>
     
     </p>
     <form action="traitement.php" method="POST">
-        Nom: <input type="text" name="nom" required> <br>
-        Prénom: <input type="text" name="prenom" required> <br>
-        Email: <input type="text" name="mail" required> <br>
-        Mot de passe: <input type="password" name="pass" required> <br>
-        <input type="submit">
+        Nom*: <input type="text" name="nom" required> <br>
+        Prénom*: <input type="text" name="prenom" required> <br>
+        Email*: <input type="text" name="mail" required> <br>
+        Mot de passe*: <input type="password" name="pass" required> <br>
+        <input type="submit" >
 
     </form>
+    
 </body>
 </html>

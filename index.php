@@ -7,13 +7,20 @@
     <title>InnovateTech</title>
 </head>
 <body>
+    <header>
+    <h1>InnovateTech</h1>
+                <div class="menu">
+                     <a href="index.php">Accueil</a>
+                     <a href="inscription.php">INSCRIPTION</a>
+                     <a href="boite_idees.php">Vos_idées</a>
+               </div>
+    </header>
 
-<h1>InnovateTech</h1>
+
          <div class="head">
-    <img src="img/design.png" alt="">
-
+    <img src="img/picture.jpg" alt="">
     <a href="inscription.php"> Sinscrire</a>
-    </div>
+         </div>
     
 </body>
 </html>
